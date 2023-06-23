@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            border: 1px solid #000;
+            width: 500px;
+            padding: 50px;
+            background-color: coral;
+            margin: 80px auto;
+            font-family: sans-serif;
+        }
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(25, 25, 118);
+        }
+        input{
+            padding: 12px;
+        }
+
+        label {
+            width: 150px;
+            display: inline-block;
+            margin-bottom: 20px;
+
+        }
+
+        button {
+            height: 35px;
+            width: 45px;
+            /* padding: 10px; */
+            font-size: 22px;
+            text-align: center;
+            margin: 5px;
+        }
+        
+        #res{
+            height: 70px;
+            width: 150px;
+            background-color: aquamarine;
+            display: inline-block;
+            text-align: center;
+            font-size: 25px;
+        }
+        .a{
+            display: flex;
+
+        }
+        .p{
+            margin-left: 50px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <h2>Simple Calculator</h2>
+        <br><br>
+        <label for="">Enter 1st Number:</label><input type="text" id="first">
+        <br>
+        <label for="">Enter 2nd Number:</label><input type="text" id="second">
+
+
+        <div class="a">
+            <div>
+                <div>
+                    <button id="add" value="+" onclick="getop()">+</button>
+                    <button id="sub" value="-" onclick="getop()">-</button>
+                    <button id="mod" value="%" onclick="getop()">%</button>
+                </div>
+        
+                <div>
+                    <button id="multi" value="*" onclick="getop()">x</button>
+                    <button id="div" value="/" onclick="getop()">/</button>
+                </div>
+        
+            </div>
+            <label for="" class="p">RESULT:
+                <div id="res"></div>
+
+            </label>
+    
+        </div>
+
+
+    </div>
+
+
+    <script>
+
+        var num1= document.getElementById("first");
+        var num2= document.getElementById("second");
+        var res= document.getElementById("res");
+
+        document.getElementById("add").addEventListener("click",
+        function(){
+             res.innerHTML = parseInt(num1.value)+parseInt(num2.value);
+        });
+
+        document.getElementById("sub").addEventListener("click",
+        function(){
+             res.innerHTML = parseInt(num1.value)-parseInt(num2.value);
+        });
+
+        document.getElementById("multi").addEventListener("click",
+        function(){
+             res.innerHTML = parseInt(num1.value)*parseInt(num2.value);
+        });
+
+        document.getElementById("div").addEventListener("click",
+        function(){
+             res.innerHTML = parseInt(num1.value)/parseInt(num2.value);
+        });
+
+        document.getElementById("mod").addEventListener("click",
+        function(){
+             res.innerHTML = parseInt(num1.value)%parseInt(num2.value);
+        });
+
+
+
+
+
+    </script>
+</body>
+
+</html>

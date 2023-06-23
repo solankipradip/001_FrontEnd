@@ -1,0 +1,68 @@
+Q1=What are the new tags added in HTML5?
+
+Ans- 	<artical>   <dialog>   <footer>     <header>
+
+	<aside>     <keygen>   <menuitem>   <progress>
+
+	<audio>     <datalist> <canvas>     <embed>
+
+	<bdi>       <ruby>     <summary>     <video>
+
+	<rt>        <mark>     <output>     <figcaption>
+
+	<source>    <track>    <figure>     <main>
+
+	<nav>       <section>  <time>
+
+
+Q2=How to embed audio and video in a webpage?
+
+Ans-  Sometimes you need to add music or video into your web page. The easiest way to add video or sound to your web site is to include the special HTML tag called <embed>.
+
+syntex:   <embed src="file source" ></embed>
+
+
+Q3=Semantic element in HTML5?
+
+Ans-    <artical>    <aside>     <figcaption>
+
+	<footer>     <header>    <mark>
+
+	<summary>    <time>      <section>
+
+	<nav>        <main>      <details>
+
+	<table>      <form>      <figure>
+
+
+Q4=Canvas and SVG tags
+
+Ans- Canvas:
+The HTML <canvas> element is used to draw graphics on a web page.
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+Syntext:	<canvas id="" width="" height=""></canvas>
+
+
+SVG:
+SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+SVG is a W3C recommendation
+
+Differences Between SVG and Canvas
+SVG is a language for describing 2D graphics in XML.
+
+Canvas draws 2D graphics, on the fly (with a JavaScript).
+
+SVG is XML based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
+
+In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+
+Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+
+
+

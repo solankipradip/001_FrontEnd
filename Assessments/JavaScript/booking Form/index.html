@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+
+        <h1>Restaurants Booking Form</h1>
+        <form action="">
+
+            <label for="">Username :</label>
+            <br>
+            <input type="text">
+            <br>
+
+            <label for="">Mobile Number :</label>
+            <br>
+            <input type="text" id="m_number">
+            <br>
+
+            <label for="">Email Id :</label>
+            <br>
+            <input type="email">
+            <br>
+
+            <label for="">Number of person :</label>
+            <br>
+            <input type="number">
+            <br>
+            <label for="">Choice of booking :</label>
+            <br>
+            <div class="box">
+
+                <div id="choose" >
+                    <div id="menu"></div>
+                    <div id="star" onclick="test()"><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+        
+                <ul id="ul">
+                    <li id="one">Full day booking</li>
+                    <li id="two">Half day booking</li>
+                    <li id="three">Hourly booking</li>
+                </ul>
+            </div>
+
+            <div>
+                <input type="date" name="" id="b_date" class="x" >
+            <input type="time" class="x" id="b_time">
+            <span class="x"><select name="" id="b_slot"  class="slot">
+                <option value="" selected disabled>Slot</option>
+                <option value="">Breakfast</option>
+                <option value="">Lunch</option>
+                <option value="">Dinner</option>
+            </select></span>
+        
+            </div>
+
+            <button type="submit">BOOK NOW</button>
+           
+
+
+        </form>
+    </div>
+<script src="book.js"></script>
+</body>
+</html>

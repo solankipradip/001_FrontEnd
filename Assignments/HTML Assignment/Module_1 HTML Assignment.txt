@@ -1,0 +1,347 @@
+﻿Q 1= Are the HTML tags and elements the same thing?
+Ans.
+    HTML Tags :
+HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+eg. <h1>Heading Tag</h1>,<p>Paragraph</p>
+
+
+    HTML Element :
+An HTML element is defined by a start tag, some content, and an end tag
+An HTML element is set off from other text in a document by "tags", which consist of the element name   surrounded by "<" and ">".
+The name of an element inside a tag is case insensitive. That is, it can be written in uppercase,     lowercase, or a mixture. 
+For example, the <title> tag can be written as <Title>, <TITLE>, or in any other way. However, the convention and recommended practice is to write tags in lowercase.
+eg. <tagname>Content goes here...</tagname>
+
+
+Q 2=What are tags and attributes in HTML?
+Ans. 
+    HTML Tags= HTML tags are used to hold the HTML element.HTML tag starts with < and ends with ></and>.HTML tags are almost like keywords where every single tag has unique     meaning.
+    HTML Attributes= HTML attributes are used to describe the characteristic of an HTML element in detail.HTML attributes are found only in the starting tag.HTML attributes specify various additional properties to the existing HTML element.
+
+
+Q 3=What are void elements in HTML?
+Ans.
+     Most of the HTML elements are surrounded by start and end tags to specify the starting and end of the element.There is a special group of elements that only have start tags and does not contain any content within it, these elements are called void elements. Void elements doesn’t have ending tags and can only have attributes but do not contain any kind of content. These elements can have backslash before ending of start tag but that is completely optional.
+     Example of such elements are <br>, <hr>, <img>, <input>, <link>, <base>, <meta>,     <param>, <area>, <embed>, <col>, <track>, <source> etc.
+
+
+Q 4=What are HTML Entities?
+Ans.
+    Some characters are reserved in HTML.
+    If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+    Character entities are used to display reserved characters in HTML.
+    example To display a less than sign (<) we must write: &lt; or &#60;
+
+
+Q 5=What are different types of lists in HTML?
+Ans.
+    There are three types of lists in HTML:
+    1.Unordered HTML List
+    An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+    The list items will be marked with bullets (small black circles) by default.
+
+    2.Ordered HTML List
+    An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+    The list items will be marked with numbers by defaul.
+
+    3.HTML Description Lists
+    HTML also supports description lists.
+    A description list is a list of terms, with a description of each term.
+    The <dl> tag defines the description list, the <dt> tag defines the term (name), and the     <dd> tag describes each term
+
+
+Q 6=What is the ‘class’ attribute in HTML?
+Ans.
+    The class attribute specifies one or more classnames for an element.
+    The class attribute is mostly used to point to a class in a style sheet. However, it can     also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+
+
+Q 7=What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+    elements?
+ANS.
+    The id attribute is a unique identifier that is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the "#" symbol followed by id.
+        Syntax:
+
+            <element id="id_name">
+    
+            In CSS Stylesheet:
+
+            #id_name {
+             // CSS Property
+                }
+    
+    The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. The     class name in CSS stylesheet using “.” symbol.
+      Syntax:
+
+        <element class="class_name">
+
+        In CSS Stylesheet:
+         .class {
+         // CSS Property
+             }
+
+Q 8=What are the various formatting tags in HTML?
+Ans.
+    Formatting elements were designed to display special types of text:
+
+        <b> - Bold text
+        <strong> - Important text
+        <i> - Italic text
+        <em> - Emphasized text
+        <mark> - Marked text
+        <small> - Smaller text
+        <del> - Deleted text
+        <ins> - Inserted text
+        <sub> - Subscript text
+        <sup> - Superscript text
+
+
+Q 9=• How is Cell Padding different from Cell Spacing?
+Ans.
+    Cellpadding:
+    Cellpadding specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell.
+    Syntax:
+
+    <table cellpadding="value" >.....</table>
+
+
+    Cellspacing:
+    Cellspacing specifies the space between cells (i.e) it defines the whitespace between     the edges of the adjacent cells.
+     Syntax:
+
+    <table cellspacing="value" >.....</table>
+
+
+Q 10= How can we club two or more rows or columns into a single row or column in an HTML       table?
+Ans.
+    The purpose of this function is to merge table cells in HTML. It can be done by using the "rowspan" and "colspan" attribute in HTML.  The rowspan is used to merge or combine the number of cells in a row whereas the colspan is used to merge column cells in a table.  
+
+Q 11=What is the difference between a block-level element and an inline element?
+Ans.
+    Inline Elements:
+    Inline elements never start from a new line and only cover the width according to the size of bounded tags in the HTML element.
+    in inline element the border only covers the area specified by the content bounded in the inline tag, 
+    i.e., the <span> <a> <br> <button> tag, which is an inline element
+
+    Block Elements:
+    Block elements begin from a new line by default and cover space to its left and right as     far as it can go. The height that it covers is equal to the content height. Also, it covers the whole horizontal space of its parent element.
+    in block element the border covers the whole space of its element, and the height that it covers is equal to the content height.
+    i.g., <div>, <form>, <footer>, <hr>, <header> 
+
+
+Q 12=How to create a Hyperlink in HTML?
+Ans.
+    HTML links are hyperlinks.
+    You can click on a link and jump to another document.
+    When you move the mouse over a link, the mouse arrow will turn into a little hand.
+    Note: A link does not have to be text. A link can be an image or any other HTML element!
+    The HTML <a> tag defines a hyperlink. 
+    It has the following syntax:
+
+        <a href="url">link text</a>
+
+
+Q 13=What is the use of an iframe tag?
+Ans.
+    The <iframe> tag specifies an inline frame.
+    An inline frame is used to embed another document within the current HTML document.
+
+    Syntax:
+    
+    <iframe src="URL" title="description"></iframe>
+
+
+Q 14=What is the use of a span tag? Explain with example?
+Ans.
+    The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+    The tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+    The tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+    Example:
+    A <span> element which is used to color a part of a text:
+    <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+
+Q 15=How to insert a picture into a background image of a web page?
+Ans.
+    To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:
+
+    Syntax:
+
+    <body background = "URL or path" > Website Body </body>
+
+    Example
+    Add a background image on a HTML element:
+
+    <p style="background-image: url('img_girl.jpg');">
+
+    Note:We can also add CSS code under style tag or we can create separate file
+
+
+Q 16=How are active links different from normal links?
+Ans.
+    Links are categorized into three types. Typically a Link is displayed in three different colors based on the usage.
+
+    1.Normal links (Unvisited links)
+    2.Visited links
+    3.Active links
+
+    An unvisited link is underlined and blue
+    A visited link is underlined and purple
+    An active link is underlined and red
+    You can change the link state colors, by using CSS:
+
+    If you left or right-click any one of the links Visited or Unvisited, it will turn into Red and Underline. Active Links shows that the browser is in the process to load a new resource.
+
+
+Q 17= What are the different tags to separate sections of text?
+Ans.
+    The <br> tag is one way to separate the lines of text. There are other tags like the <p>     tag and <blockquote> tag that are also used to separate sections of text.
+    Section tag defines the section of documents such as chapters, headers, footers or any     other sections.
+    the section tag divides the content into section and subsections.
+
+
+Q 18=What is SVG?
+Ans.
+    SVG stands for Scalable Vector Graphics
+    SVG is used to define vector-based graphics for the Web
+    SVG defines the graphics in XML format
+    Every element and every attribute in SVG files can be animated
+    You can embed SVG elements directly into your HTML pages.   
+
+
+Q 19= What is difference between HTML and XHTML?
+Ans.
+    1. XHTML : 
+    ⇒> XHTML stands for Extensible Hypertext Markup Language. 
+    ⇒> It can be considered as a part of the XML markup language this is because of XHTML     have features of both XML and HTML. 
+    ⇒> XHTML is extended from XML and HTML. XHTML can be considered as a better version of        HTML.
+    ⇒> The format is a markup language.
+    ⇒> In this, every tag and attribute should be in lower case.
+    ⇒> Doctype is very necessary to write at the top of the file.
+    ⇒> It is necessary to close the tags in the order they are opened.
+    ⇒> Filename extension are .xhtml, .xht, .xml.
+
+
+
+    2. HTML : 
+    ⇒> HTML is the Hypertext Markup Language 
+    ⇒> This is the most widely used language over the internet. 
+    ⇒> HTML is used to create web pages and link them from one to another. 
+    ⇒> Please note HTML is not a programming language, it is a markup language. 
+    ⇒> We can use different other technologies as like CSS and javascript to give a new look to the pages developed by HTML.
+    ⇒> The format is a document file format.
+    ⇒> All tags and attributes are not necessarily to be in lower or upper case.
+    ⇒> Doctype is not necessary to write at the top.
+    ⇒> It is not necessary to close the tags in the order they are opened.
+    ⇒> Filename extension used are .html, .htm.	 
+
+
+Q 20= What are logical and physical tags in HTML?
+Ans.
+    Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names.
+
+    Logical Tags  :
+    Logical Tags are used in HTML to display the text according to the logical styles.     Following are the Logical tags commonly used in HTML.
+    
+        Logical Tags 
+    
+        <abbr>	    Defines an abbreviation
+        <acronym>   Defines an acronym
+        <address>   Defines an address element
+        <cite>	    Defines citation
+        <code>	    Defines computer code text
+        <blockquote>Defines a long quotation
+        <del>	    Defines text
+        <dfn>	    Defines a definition term
+        <ins>	    Defines inserted text
+        <kbd>	    Defines keyboard text
+        <pre>	    Defines preformatted text
+        <q>	    Defines short quotation
+        <samp>	    Defines sample computer code
+        <strong>    Defines strong text
+        <var>	    Defines a variable
+
+    Physical Tags 
+    Physical Tags are used in HTML to provide actual physical formatting to the text.     Following are the Physical tags commonly used in HTML.
+            
+        Physical Tags
+            
+        Tag	    Description
+        <b>	    Defines bold text
+        <big>	Defines big text
+        <i>	    Defines italic text
+        <small>	Defines small text
+        <sup>	Defines superscripted text
+        <sub>	Defines subscripted text
+        <tt>	Defines teletype text
+        <u>	    Deprecated. Use styles instead
+ 
+ 
+ HTML 5 Assignment
+ 
+ Q1=What are the new tags added in HTML5?
+
+Ans- 	<artical>   <dialog>   <footer>     <header>
+
+	<aside>     <keygen>   <menuitem>   <progress>
+
+	<audio>     <datalist> <canvas>     <embed>
+
+	<bdi>       <ruby>     <summary>     <video>
+
+	<rt>        <mark>     <output>     <figcaption>
+
+	<source>    <track>    <figure>     <main>
+
+	<nav>       <section>  <time>
+
+
+Q2=How to embed audio and video in a webpage?
+
+Ans-  Sometimes you need to add music or video into your web page. The easiest way to add video or sound to your web site is to include the special HTML tag called <embed>.
+
+syntex:   <embed src="file source" ></embed>
+
+
+Q3=Semantic element in HTML5?
+
+Ans-    <artical>    <aside>     <figcaption>
+
+	<footer>     <header>    <mark>
+
+	<summary>    <time>      <section>
+
+	<nav>        <main>      <details>
+
+	<table>      <form>      <figure>
+
+
+Q4=Canvas and SVG tags
+
+Ans- Canvas:
+The HTML <canvas> element is used to draw graphics on a web page.
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+Syntext:	<canvas id="" width="" height=""></canvas>
+
+
+SVG:
+SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+SVG is a W3C recommendation
+
+Differences Between SVG and Canvas
+SVG is a language for describing 2D graphics in XML.
+
+Canvas draws 2D graphics, on the fly (with a JavaScript).
+
+SVG is XML based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
+
+In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+
+Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+
