@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #000;
+    font-family:  Tahoma, sans-serif;
+
+  }
+
+  .main{
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: azure;
+  }
+  h2{
+    text-align: center;
+  }
+  label{
+    display: block;
+  }
+  input{
+    padding: 7px 0;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  button{
+    padding: 7px 5px;
+    width: 100px;
+    display: block;
+    margin:  auto;
+    background-color: rgb(153, 231, 231);
+    border-radius: 5px;
+    cursor: pointer;
+  }

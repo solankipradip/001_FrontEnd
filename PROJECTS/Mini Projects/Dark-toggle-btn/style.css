@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    transition: 0.8s;
+}
+body.active{
+    background: #000;
+}
+div.toggle_btn_box {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(142, 142, 160);
+    border-radius: 50px;
+    position: relative;
+}
+
+div.toggle_btn_box.active {
+    background-color: white;
+}
+
+div.toggle_btn {
+    height: 42px;
+    width: 42px;
+    background-color: azure;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    transition: 1s;
+}
+
+div.toggle_btn.active {
+    background-color: black;
+    left: 54px;
+
+
+}

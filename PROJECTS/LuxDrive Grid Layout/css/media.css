@@ -1,0 +1,296 @@
+
+
+@media (max-width:500px) {
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    .container {
+        padding: 35px; 
+    }
+
+    .padding {
+        padding: 60px 0 0px 0;
+    }
+
+    .top-header {
+        padding-block: 18px;
+        /* display: none; */
+    }
+    .contact-location{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+
+    .cross_submenu{
+        display: block;
+    }
+
+    .main_responsive.active_submenu{
+        display: block;
+    }
+
+    
+
+
+    
+/**********
+
+ CAR COLLECTION SECTION 
+
+            ***********/
+
+
+    .collection-title {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 32px;
+        padding-right: 55px;
+        line-height: 47px;
+    }
+
+    .collection-title .x h2 {
+        font-size: 32px;
+        padding-right: 55px;
+        line-height: 47px;
+    }
+
+    .collection-detail {
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1f; */
+        column-gap: 30px;
+        row-gap: 60px;
+    }
+
+
+    /**********
+
+    RIDE TO DESTINATION SECTION 
+
+            ***********/
+    .Ride-To-Destinations-inner .top {
+        padding: 50px 0 0 0;
+        /* border: 1px solid #fff; */
+    }
+
+    .middle {
+        grid-template-columns: 1fr;
+
+        /* grid-template-rows: 1fr 1fr; */
+    }
+
+    .middle h5 {
+        padding-bottom: 30px;
+    }
+
+    .middle .middle-right {
+        padding-left: 0;
+    }
+
+    .middle .middle-left {
+        padding-left: 0;
+    }
+
+    .features {
+        /* border: 1px solid #fff; */
+        padding-top: 30px;
+    }
+
+
+    /**********
+
+ DRIVERS SECTION 
+
+            ***********/
+
+    .drivers {
+        grid-template-columns: 1fr;
+        padding: 0 0;
+        /* text-align: center; */
+    }
+
+    .driver-text .top {
+        padding-right: 0;
+    }
+
+    .drivers .car-img {
+        margin-top: 50px;
+        margin-right: 0px;
+        width: 100%;
+        /* width: 500px; */
+    }
+
+
+    /**********
+
+ OFFERS SECTION 
+
+            ***********/
+
+
+    .offers h2 {
+        text-transform: capitalize;
+        text-align: right;
+        margin-right: 20px;
+        transform: translateY(151px);
+    }
+
+
+
+    /**********
+
+ PROFFESIONAL SECTION 
+
+            ***********/
+
+    .proffesional .proffesional-profile {
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 350px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    /**********
+
+ premium DRIVERS SECTION 
+
+            ***********/
+
+    .premium .drivers {
+        /* background-color: #f80202; */
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        padding: 130px 0;
+    }
+
+    /* .premium .padding-right { */
+        /* padding-right: 50px; */
+    
+
+    .premium .drivers .car-img {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+
+
+    /**********
+
+ CLIENTS DRIVERS SECTION 
+
+            ***********/
+
+    .clients .xyz {
+        /* padding: 0 70px; */
+        grid-template-columns: 1fr;
+        padding: 70px 0 0 0;
+        row-gap: 70px;
+
+    }
+
+    .clients .xyz div {
+        border: none;
+        padding: 0;
+
+    }
+
+    /* OFFER2-SECTION  */
+
+    .offers2 {
+
+        background-size: 100% 100%;
+        height: 260px;
+        width: 100%;
+        background-position: 0 0;
+    }
+
+
+    /* .model-car { */
+
+        /* background-position: -300px 0; */
+        
+    /* } */
+    .model-car h2{
+        left: 40px;
+    }
+
+
+
+    /**********
+
+ VERIETY-OPTIONS SECTION 
+
+            ***********/
+
+    .variety-bottom {
+        /* padding-left: 300px; */
+        padding: 42px 0 57px 0px;
+    }
+
+    .premium-price img{
+        display: none;
+    }
+    .premium{
+        flex-direction: column;
+    }
+    .price-btn, .lists{
+        margin-top: 50px;
+    }
+
+    
+    /**********
+
+ VERIETY-OPTIONS SECTION 
+
+            ***********/
+
+
+    .car-menu{
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+    }
+    .car-menu .x{
+        margin-bottom: 50px;
+    }
+
+
+    
+    /**********
+
+ VERIETY-OPTIONS SECTION 
+
+            ***********/
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .com-info, .links, .services{
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

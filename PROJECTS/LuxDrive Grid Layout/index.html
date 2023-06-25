@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/asset 29.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LuxeDrive Layout</title>
+</head>
+
+<body>
+    <header>
+        <div class="bg-img">
+            <div class="container top-header  grid">
+                <div class="logo">
+                    <img src="images/asset 1.png" alt="Luxedrive logo">
+                </div>
+                <span id="close_btn">X</span>
+                <span class="cross_submenu" onclick="s()" id="cross_submenu">
+                    <div class="menu_icon_svg">
+                        <div>
+
+                            <div class="tl"></div>
+                            <div class="tr"></div>
+                        </div>
+                        <div>
+                            <div class="bl"></div>
+                            <div class="br"></div>
+                        </div>
+                    </div>
+                </span>
+                <div class="contact-location typeface grid">
+                    <div class="contact x">
+                        <div>
+                            <div><i class=" fa-solid fa-phone"></i></div>
+
+                        </div>
+                        <div class="b">
+                            <div>
+                                <a href="#">
+                                    + 1234&nbsp;5678&nbsp;901 <br>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    + 2345&nbsp;6789&nbsp;012 <br>
+
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location x">
+                        <div>
+                            <div><i class=" fa-solid fa-location-dot"></i></div>
+
+                        </div>
+                        <div class="b">
+                            <div>
+                                <a href="#">
+                                    57&nbsp;RUE&nbsp;ARMAND&nbsp;CARREL <br>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    47&nbsp;RUE&nbsp;CAVIEAR <br>
+
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr> -->
+
+            <div class="main_responsive " id="main_responsive">
+                <ul class="responsive_menu">
+                    <li id="li1"><a href="#" class="typeface">HOME</a><span id="span" onclick=" myNew()">+</span>
+                        <ul class="submenu" id="submenu1">
+                            <li><a href="#" class="active">Main Home</a></li>
+                            <li><a href="#" class="">Premium Vehicles</a></li>
+                            <li><a href="#" class="">Luxury Vehicles</a></li>
+                            <li><a href="#" class="">Landing </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="typeface">ABOUT</a><span onclick=" myNew2()">+</span>
+                        <ul class="submenu" id="submenu2">
+                            <li><a href="#" class="">What We Offer</a></li>
+                            <li><a href="#" class="">Our Drivers</a></li>
+                            <li><a href="#" class="">Our Services </a></li>
+                            <li><a href="#" class="">Pricing Plan </a></li>
+                            <li><a href="#" class="">Pricing Packages </a></li>
+                            <li><a href="#" class="">FAQ Page </a></li>
+                            <li><a href="#" class="">Contact Us </a></li>
+                            <li><a href="#" class="">Get In Touch </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="typeface">VEHICLE FEET</a><span onclick=" myNew3()">+</span>
+                        <ul class="submenu" id="submenu3">
+                            <li><a href="#" class="">Fleet Standard</a></li>
+                            <li><a href="#" class="">Fleet Slider</a></li>
+                            <li><a href="#" class="">Fleet Info On Image</a></li>
+                            <li><a href="#" class="">Fleet Tabbed List</a></li>
+                            <li><a href="#" class="">Vehicle Single</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#" class="typeface">BLOG</a><span onclick=" myNew4()">+</span>
+                        <ul class="submenu" id="submenu4">
+                            <li><a href="#" class="">Right Sidebar</a></li>
+                            <li><a href="#" class="">Left Sidebar</a></li>
+                            <li><a href="#" class="">No Sidebar</a></li>
+                            <li><a href="#" class="">Post Formates</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#" class="typeface">SHOP</a><span onclick=" myNew5()" id="span5">+</span>
+                        <ul class="submenu" id="submenu5">
+                            <li><a href="#" class="">Shop List</a></li>
+                            <li><a href="#" class="">Shop Single</a></li>
+                            <li><a href="#" class="">Shop Pages</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+
+
+
+            <div class="nav grid">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" class="typeface">HOME</a>
+                            <ul class="sub_menu">
+                                <li><a href="#" class="active">Main Home</a></li>
+                                <li><a href="#" class="">Premium Vehicles</a></li>
+                                <li><a href="#" class="">Luxury Vehicles</a></li>
+                                <li><a href="#" class="">Landing </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="typeface">PAGES</a>
+                            <ul class="sub_menu">
+                                <li><a href="#" class="">About Us</a></li>
+                                <li><a href="#" class="">What We Offer</a></li>
+                                <li><a href="#" class="">Our Drivers</a></li>
+                                <li><a href="#" class="">Our Services </a></li>
+                                <li><a href="#" class="">Pricing Plan </a></li>
+                                <li><a href="#" class="">Pricing Packages </a></li>
+                                <li><a href="#" class="">FAQ Page </a></li>
+                                <li><a href="#" class="">Contact Us </a></li>
+                                <li><a href="#" class="">Get In Touch </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="typeface">VEHICLE FLEET</a>
+                            <ul class="sub_menu">
+                                <li><a href="#" class="">Fleet Standard</a></li>
+                                <li><a href="#" class="">Fleet Slider</a></li>
+                                <li><a href="#" class="">Fleet Info On Image</a></li>
+                                <li><a href="#" class="">Fleet Tabbed List</a></li>
+                                <li><a href="#" class="">Vehicle Single</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#" class="typeface">BLOG</a>
+                            <ul class="sub_menu">
+                                <li><a href="#" class="">Right Sidebar</a></li>
+                                <li><a href="#" class="">Left Sidebar</a></li>
+                                <li><a href="#" class="">No Sidebar</a></li>
+                                <li><a href="#" class="">Post Formates</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="typeface">SHOP</a>
+                            <ul class="sub_menu">
+                                <li><a href="#" class="">Shop List</a></li>
+                                <li><a href="#" class="">Shop Single</a></li>
+                                <li><a href="#" class="">Shop Pages</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-cross">
+                    <span class="search">
+                        <i class="fa-solid fa-search"></i>
+                    </span>
+                    <span class="cross">
+                        <div class="menu_icon_svg">
+                            <div>
+
+                                <div class="tl"></div>
+                                <div class="tr"></div>
+                            </div>
+                            <div>
+                                <div class="bl"></div>
+                                <div class="br"></div>
+                            </div>
+                        </div>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="contact-form container">
+                <div class="title-descri">
+                    <h2 id="text">Need to rent a luxury car? <br>send a request</h2>
+                    <p>complate the form below and we'll contact you as soon as possible</p>
+                </div>
+                <!-- <div class="submit grid">
+                    <div class="input">
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <input type="date">
+                    </div>
+                    <div class="input">
+                        <select>
+                            <option value="" disabled selected>Select Time</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                            <option value="">01:00:00</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input type="text">
+
+                    </div>
+                    <div class="input">
+
+                        <a href="#" class="btn typeface"><span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                            SEND <span><i class="fa-solid fa-plus"></i></span>
+                        </a></div>
+
+                </div> -->
+
+            </div>
+    </header>
+
+
+    <section class="car-collection">
+        <div class="container">
+            <div class="car-collection-content padding">
+                <div class="collection-title">
+                    <div class="x left">
+                        <h2>What We Provide Is The Luxury Transport And Most Comfortable Experience
+                        </h2>
+                    </div>
+                    <div class="x right">
+                        <p>Vivamus arcu felis bibendum ut tristique et egestas. Ultricies leo intege in malesuada nunc
+                            vel risus commodo. Sapien nec sagittis aliquam male bibendum arcu vitae. In ornare quam
+                            viverra orci sagittis eu volutpat odio facilisis. Fringilla est ullamcorper eget nulla
+                            facilisi nul.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="collection-detail">
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 7.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">4x4</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Aston Martin DB11 AMR</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 8.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">Sport</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Ford F-150 Raptor</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 9.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">Lumisine</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Bmw M 3 Coupe</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 10.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">Lumisine</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Bmw X2 M35i DriveX</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 11.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">4x4</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Mercedes G Class</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="car-media-img">
+                        <div class="box">
+                            <div class="car-img">
+                                <img src="images/asset 12.jpeg" alt="">
+                                <div class="img-overlay">
+                                    <h5 class="top">Sport</h5>
+                                    <div class="p-price">
+                                        <span>form</span>
+                                        <span></span>
+                                        <span class="price">
+                                            <span class="x">
+                                                <sup>$</sup></span>180</span><span class="hour">/hour</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit do amet, consectetur, adipiscing elit, sed
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="brand-name">
+                                <h5><a href="#">Ford Raptor 135 X</a></h5>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--*****
+
+         Ride-To-Destinations 
+
+        ******-->
+
+    <section class="Ride-To-Destinations">
+        <div class="container">
+            <div class="Ride-To-Destinations-inner padding">
+                <div class="top">
+                    <h2>Ride To Destinations <br> With Maximum Comfort</h2>
+                    <p class="typeface">FINEST TRANSPORT
+                    </p>
+                    <span class="line"></span>
+                </div>
+                <div class="middle grid">
+
+                    <div class="middle-left grid">
+                        <div class="features">
+                            <h5>No Delays</h5>
+                            <p class="para">Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in
+                                posuere urna. Faucibus turpis in eun mi bibendum.</p>
+                        </div>
+                        <div class="features grid">
+                            <h5>Premium Support</h5>
+                            <p class="para">Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in
+                                posuere urna. Faucibus turpis in eun mi bibendum.</p>
+                        </div>
+                    </div>
+                    <div class="middle-right">
+                        <div class="features">
+                            <h5>High Quality</h5>
+                            <p class="para">Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in
+                                posuere urna. Faucibus turpis in eun mi bibendum.</p>
+                        </div>
+                        <div class="features">
+                            <h5>A Diverse Selection</h5>
+                            <p class="para">Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in
+                                posuere urna. Faucibus turpis in eun mi bibendum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <img src="images/asset 13.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--********
+
+         DRIVERS SECTION START 
+
+         *******-->
+
+    <section>
+        <div class="container padding-right">
+            <div class="drivers grid">
+                <div class="driver-text ">
+                    <div class="top">
+                        <h2>We Care Of Your Safety<br>
+                            And Convenience</h2>
+                        <p class="typeface typeface-one">FINEST TRANSPORT
+                        </p>
+                        <p class="para">Facilisi cras fermentum odio eu feugiat. In fermentum et sollicitudin ac ori
+                            accumsan sit amet nulla facilisi morbi tempus iaculis urna id. Aenean euismod elementum nisi
+                            quis eleifend quam adipiscing vitae dipiscing.</p>
+                        <div>
+                            <span><a href="#" class="btn typeface"><span><i
+                                            class="fa-sharp fa-solid fa-circle"></i></span>
+                                    BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="car-img"><img src="images/asset 14.jpeg" alt="">
+                </div>
+
+                <div class="car-img"><img src="images/asset 15.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--********
+
+          OFFERS SECTION START 
+
+           *******-->
+
+
+    <section>
+        <div class="offers">
+            <h2>do you need a rent a car? <br> See our offers</h2>
+
+        </div>
+    </section>
+
+
+    <!--********
+        
+          PROFFESIONAL SECTION START 
+
+           *******-->
+
+    <section class="proffesional ">
+        <div class="container ">
+            <div class="proffesional">
+                <div class="top">
+                    <h2>Our Proffesional Chauffeurs
+                    </h2>
+                    <p class="typeface typeface-one">meet our team
+                    </p>
+                    <div class="line"></div>
+                </div>
+                <div class="proffesional-profile">
+                    <div class="profile-pic"><img src="images/asset 16.jpeg" alt="">
+                        <div class="profile-bio">
+                            <h5>Marco Watkivi</h5>
+                            <a href="#" class="typeface-one"><i class="fa-solid fa-phone"></i><span>&nbsp;+1234 5678
+                                    912</span></a>
+                        </div>
+
+                    </div>
+                    <div class="profile-pic"><img src="images/asset 17.jpeg" alt="">
+                        <div class="profile-bio">
+                            <h5>Marily Sulli</h5>
+                            <a href="#" class="typeface-one"><i class="fa-solid fa-phone"></i><span>&nbsp;+1234 5678
+                                    912</span></a>
+                        </div>
+
+                    </div>
+                    <div class="profile-pic"><img src="images/asset 18.jpeg" alt="">
+                        <div class="profile-bio">
+                            <h5>Zakary Tapun</h5>
+                            <a href="#" class="typeface-one"><i class="fa-solid fa-phone"></i><span>&nbsp;+1234 5678
+                                    912</span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--********
+        
+          premium DRIVERS SECTION START 
+
+           *******-->
+
+    <section class="premium">
+        <div class="container padding-right">
+            <div class="drivers grid">
+                <!-- <div class="premium-img"> -->
+                <div class="car-img"><img src="images/asset 19.jpeg" alt="">
+                </div>
+
+                <div class="car-img"><img src="images/asset 20.jpeg" alt="">
+                </div>
+                <!-- </div> -->
+
+                <div class="driver-text ">
+                    <div class="top">
+                        <h2>Premium Cars Rental
+                        </h2>
+                        <p class="typeface typeface-one">ONLY THE BEST</p>
+                        <p class="para">Praesent elementum facilisis leo vel fringilla est. Vest bulum lectus a urise
+                            ultrices eros in cursus turpi uto.
+
+                        </p>
+                        <div>
+                            <span><a href="#" class="btn typeface"><span><i
+                                            class="fa-sharp fa-solid fa-circle"></i></span>
+                                    BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--********
+        
+          CLIENTS SECTION START 
+
+           *******-->
+
+    <section class="client">
+        <div class="container">
+            <div class="clients padding">
+                <div>
+                    <h2>We trive to meet the needs <br>of our clients and we value their <br>opinions about our work
+                    </h2>
+                </div>
+                <div class="xyz grid">
+                    <div>
+                        <h5>smooth car transport</h5>
+                        <img src="images/asset 22.png" alt="">
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at, vero facilis
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique nobis, doloremque minus
+                            eius nesciunt laboriosam vel nostrum deleniti fugiat. Quibusdam officia repudiandae, odio
+                            cumque quae eius ducimus at non praesentium.
+                            corrupti nobis odit?</p>
+                        <p class="typeface-one">madison edwar, new york</p>
+                    </div>
+                    <div>
+                        <h5>smooth car transport</h5>
+                        <img src="images/asset 22.png" alt="">
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo at, vero facilis
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptate nihil officiis
+                            quis quisquam cum.corrupti nobis odit?</p>
+                        <p class="typeface-one">madison edwar, new york</p>
+                    </div>
+                    <div>
+                        <h5>smooth car transport</h5>
+                        <img src="images/asset 22.png" alt="">
+                        <p class="para"> Nemo at, vero facilis corrupti nobis odit? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Odit impedit quibusdam possimus assumenda animi asperiores,
+                            quas repellendus maiores repudiandae eaque sed, non deserunt ut error facilis expedita
+                            veritatis nesciunt commodi.</p>
+                        <p class="typeface-one">madison edwar, new york</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--********
+
+          OFFERS-2 SECTION START 
+
+           *******-->
+    <section>
+        <div class="offers2"></div>
+    </section>
+
+
+
+
+    <!--********
+           
+        VARIATY-OPTION SECTION START 
+           
+            *******-->
+
+
+    <section>
+        <div class="container ">
+            <div class="variety-options">
+                <div class="top">
+                    <h2>Premium Cars Rental
+                    </h2>
+                    <p class="typeface typeface-one">ONLY THE BEST</p>
+                    <div class="line"></div>
+                </div>
+                <div class="variety-bottom">
+                    <div class="premium grid">
+                        <div class="premium-price">
+                            <img src="images/asset 24.png" alt="">
+                            <div class="price-text">
+                                <h5>Premium</h5>
+                                <div>
+                                    <span class="para">form</span>
+                                    <sup>$</sup>
+                                    <span class="a40">40</span>
+                                    <span class="hr">/hr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <p class="para"><i class="fa-solid fa-check"></i>Leo urna molestie at elem
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Quisque non tellu si
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Pretium lectus quam id li
+                            </p>
+                        </div>
+                        <div class="price-btn">
+                            <a href="#" class="btn typeface"><span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="variety-bottom">
+                    <div class="premium grid">
+                        <div class="premium-price">
+                            <img src="images/asset 25.png" alt="">
+                            <div class="price-text">
+                                <h5>Super</h5>
+                                <div>
+                                    <span class="para">form</span>
+                                    <sup>$</sup>
+                                    <span class="a40">50</span>
+                                    <span class="hr">/hr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <p class="para"><i class="fa-solid fa-check"></i>Leo urna molestie at elem
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Quisque non tellu si
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Pretium lectus quam id li
+                            </p>
+                        </div>
+                        <div class="price-btn">
+                            <a href="#" class="btn typeface"><span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="variety-bottom">
+                    <div class="premium grid">
+                        <div class="premium-price">
+                            <img src="images/asset 26.png" alt="">
+                            <div class="price-text">
+                                <h5>Luxury</h5>
+                                <div>
+                                    <span class="para">form</span>
+                                    <sup>$</sup>
+                                    <span class="a40">70</span>
+                                    <span class="hr">/hr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <p class="para"><i class="fa-solid fa-check"></i>Leo urna molestie at elem
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Quisque non tellu si
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Pretium lectus quam id li
+                            </p>
+                        </div>
+                        <div class="price-btn">
+                            <a href="#" class="btn typeface"><span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="variety-bottom">
+                    <div class="premium grid">
+                        <div class="premium-price">
+                            <img src="images/asset 27.png" alt="">
+                            <div class="price-text">
+                                <h5>Business</h5>
+                                <div>
+                                    <span class="para">form</span>
+                                    <sup>$</sup>
+                                    <span class="a40">80</span>
+                                    <span class="hr">/hr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <p class="para"><i class="fa-solid fa-check"></i>Leo urna molestie at elem
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Quisque non tellu si
+                            </p>
+                            <p class="para"><i class="fa-solid fa-check"></i>Pretium lectus quam id li
+                            </p>
+                        </div>
+                        <div class="price-btn">
+                            <a href="#" class="btn typeface"><span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                BOOK NOW <span><i class="fa-solid fa-plus"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <!-- <div class="container"> -->
+        <div class="model-car">
+            <h2>Get 15% Off Your Rental! <br>Choose Your Model</h2>
+        </div>
+        <div class="car-menu">
+            <div class="x">
+                <div class="img">
+                    <img src="images/asset 28.png" alt="" class="location-img">
+                </div>
+                <div class="text">
+                    <p class="para">11 Rue de la Mutualité,</p>
+                    <p class="para">92400 Paris</p>
+                </div>
+            </div>
+            <div class="x">
+                <div class="img">
+                    <img src="images/asset 6.png" alt="">
+                </div>
+                <div class="text">
+                    <p class="para">Phone: (012) 345 6789 0123;</p>
+                    <p class="para">Email: luxe@example.com</p>
+                </div>
+            </div>
+            <div class="x">
+                <div class="img">
+                    <img src="images/asset 29.png" alt="">
+                </div>
+                <div class="text">
+                    <p class="para">Mon-Sat 09:00-23:00;</p>
+                    <p class="para">Sunday is closed.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container footer">
+            <div class="com-info">
+                <h5><img src="images/asset 30.png" alt=""></h5>
+                <p class="para">Justo odio dignissimos ducimus qui blanditiis voluptatum deleniti corrupti quos dolores
+                    et quas molestias sint occaecati id est laborumesa etdolorum.</p>
+                <p class="typeface-one typeface">CALL CENTAR: +397 256 38 29</p>
+            </div>
+            <div class="links">
+
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#" class="typeface">HOW WE WORK</a></li>
+                    <li><a href="#" class="typeface">FAQ</a></li>
+                    <li><a href="#" class="typeface">SERVICES</a></li>
+                    <li><a href="#" class="typeface">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="services">
+                <h5>Our Services</h5>
+                <ul>
+                    <li><a href="#" class="typeface">CORPORATE TRAVELS</a></li>
+                    <li><a href="#" class="typeface">SPECIAL EVENTS</a></li>
+                    <li><a href="#" class="typeface">AIRPORT TRAVELS</a></li>
+                    <li><a href="#" class="typeface">WEDDING LIMOUSINE</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

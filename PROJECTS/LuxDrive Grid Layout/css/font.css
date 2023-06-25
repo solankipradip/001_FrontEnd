@@ -1,0 +1,87 @@
+/*********
+
+ SORA FONT FACE  
+
+        *********/
+@font-face {
+    font-family: "sora-r";
+    src: url(/Font/sora/Sora-Regular.ttf);
+}
+
+@font-face {
+    font-family: "sora-m";
+    src: url(/Font/sora/Sora-Medium.ttf);
+}
+
+@font-face {
+    font-family: "sora-sb";
+    src: url(/Font/sora/Sora-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "sora-b";
+    src: url(/Font/sora/Sora-Bold.ttf);
+}
+
+
+
+
+
+
+
+
+
+/*********
+
+ EPILOGUE FONT FACE  
+
+        *********/
+
+@font-face {
+    font-family: "epillogue-r";
+    src: url(/Font/Epilogue/Epilogue-Regular.ttf);
+}
+@font-face {
+    font-family: "epillogue-m";
+    src: url(/Font/Epilogue/Epilogue-Medium.ttf);
+}
+@font-face {
+    font-family: "epillogue-sb";
+    src: url(/Font/Epilogue/Epilogue-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "epillogue-l";
+    src: url(/Font/Epilogue/static/Epilogue-ExtraLight.ttf);
+}
+
+
+
+
+
+/*********
+
+ INCONSOLATA FONT FACE  
+
+        *********/
+        
+
+@font-face {
+    font-family: "inconsolata-r";
+    src: url(/Font/Inconsolata/Inconsolata-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inconsolata-m";
+    src: url(/Font/Inconsolata/Inconsolata-Medium.ttf);
+}
+
+@font-face {
+    font-family: "inconsolata-sb";
+    src: url(/Font/Inconsolata/Inconsolata-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "inconsolata-l";
+    src: url(/Font/Inconsolata/Inconsolata-Light.ttf);
+}
