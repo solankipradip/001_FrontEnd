@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Grand+Hotel&family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;500&family=Roboto:wght@300;400&display=swap');
+
+    *,
+  ::after,
+  ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Barlow Condensed', sans-serif;
+
+  }
+
+  .main-div{
+    width: 100vw;
+    height: 100vh;
+    background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .music-container{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 23px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+  }
+
+
+  h2#artist{
+    color: #564c4c;
+    font-size: 18px;
+  }
+
+  .img-container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .music-controls{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .music-controls .fa-solid{
+    font-size: 22px;
+    cursor: pointer;
+    
+  }
+
+  .music-controls .fa-solid:hover{
+    color: rgb(81, 76, 75);
+  }
+
+
+  .music-controls #play{
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    place-items: center;
+
+ }
+
+ .music-controls #play:hover{
+    background-color: whitesmoke;
+    color: #000;
+ }
+
+ .anime{
+    animation: anime 15s linear infinite;
+ }
+
+ @keyframes anime {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+ }
+
+ .progress-bar{
+    height: 7px;
+    width: 300px;
+    /* background-color: red; */
+    border: 1px solid #000;
+    border-radius: 10px;
+ }
+
+ .progressed{
+    height: inherit;
+    width: 0%;
+    background: #000;
+    transition: 2s;
+    position: relative;
+ }
+
+ .progressed::after{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+    top: -5px;
+    right: -10px;
+ }
+
+ .time{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+ }
