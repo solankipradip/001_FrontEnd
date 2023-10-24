@@ -1,0 +1,88 @@
+@media (max-width:1200px) {
+
+    body,
+    html {
+        font-size: 9px;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+}
+
+@media (max-width:993px) {
+
+    body,
+    html {
+        font-size: 9px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .banner_wrapper .hero-svg {
+        height: auto;
+        align-items: start;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    body,
+    html {
+        font-size: 8px;
+    }
+
+    .row-three .row img{
+        max-width: 150px;
+        height: 100px;
+        
+    }
+}
+
+@media (max-width:500px) {
+
+    body,
+    html {
+        font-size: 7px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    
+.header_wrapper .navbar {
+    border-radius: 0;
+    /* width: 100%; */
+}
+
+       
+.about_wrapper .table{
+    margin-top: 5rem;
+
+
+}
+
+    .banner_wrapper .main-btn {
+        margin: 2rem auto;
+        display: block;
+        width: 50%;
+    }
+
+    /* About Section  */
+ 
+    .row-three .row img{
+        width: 100px;
+        
+    }
+
+}
